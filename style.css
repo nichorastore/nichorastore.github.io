@@ -1,0 +1,65 @@
+@font-face{
+	font-family: "kolikofont1" ; src : url(fonts/koliko-Bold.ttf);
+}
+.koliko1{
+	font-family: "kolikofont1";
+}
+@font-face{
+	font-family: "kolikofont2" ; src : url(fonts/koliko-Light.ttf);
+}
+.koliko2{
+	font-family: "kolikofont2";
+}
+@font-face{
+	font-family: "kolikofont3" ; src : url(fonts/koliko-Regular.ttf);
+}
+.koliko3{
+	font-family: "kolikofont3";
+}
+@font-face{
+	font-family: "kozagopro1" ; src : url(fonts/KozGoPro-Medium.otf);
+}
+.kozago1{
+	font-family: "kozagopro1";
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.logo{
+	width: 5%;
+}
+
+.product, .gallery {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 160px;
+}
+
+.card {
+	width: 15rem;
+	margin-top: 20px;
+	margin-left: 107px;
+}
+
+.card .card-text{
+	font-size :20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+hr{
+	width: 100px;
+	border-top: 3px solid #eaeaea;
+	margin-top: -60px;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: black; 
+} 
